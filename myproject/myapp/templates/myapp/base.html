@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}По умолчанию{% endblock %}</title>
+</head>
+<body>
+    <header style="background: #f4f4f4; padding: 10px;">
+        <h2>Мой первый Django Сайт</h2>
+    </header>
+
+    <main style="padding: 20px;">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
